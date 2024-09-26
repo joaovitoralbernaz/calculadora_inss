@@ -4,17 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora INSS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <img src="img/inss.png" alt="">
+        <h1>INSS</h1>
+    </header>
+    <main>
+        <button><a href="calcula.html">calcula</a> calcula</button>
+        <section class="elementomae">    
+            <div class="box">
+                <h1>OQUE É</h1>
+                <p>O Instituto Nacional do Seguro Social (INSS) é o órgão para o qual é enviado uma porcentagem do salário bruto dos trabalhadores brasileiros.<p>
+            </div>
+            <div class="box">
+                <h1>O PAPEL DA EMPRESA</h1>
+                <p>A responsabilidade de pagar é do trabalhador, mas quem realiza o desconto é a empresa. Vale dizer que é chamada de contribuição social e que, apesar de não ser um imposto, é um tributo obrigatório.</p>
+            </div>
+            <div class="box">
+                <h1>PARA QUE É USADO</h1>
+                <p>Ela serve para arrecadar valores para a aposentadoria do trabalhador, ao final do período estipulado, bem como pode ser chamada de seguro, para proteger o trabalhador.</p>
+            </div>
+        </section>
 
-    <div>
-        <script src="script.js"></script>
-        <h1>Calculadora INSS</h1>
-        <label for="salario">Informe o salário bruto do colaborador</label>
-        <input type="text" name="" id="salario" placeholder="Ex: 1564.67">
-        <button onclick="calcula()">Calcular</button><br>
-        <span id="valor"></span>
-    </div>
+        <section>
+            <div class="tabela">
+                <tablE id="tabela">
+                    <thead>
+                        <tr>
+                            <th>Salário de contribuição</th>
+                            <th>Alíquota</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Até R$ 1.412,00</td>
+                            <td id="i1">7,5%</td>
+                        </tr>
+                        <tr>
+                            <td>De R$ 1.412,01 até R$ 2.666,68</td>
+                            <td id="i2">9%</td>
+                        </tr>
+                        <tr>
+                            <td>De R$ 2.666,69 até R$ 4.000,03</td>
+                            <td id="i3">12%</td>
+                        </tr>
+                        <tr>
+                            <td>De R$ 4.000,04 até R$ 7.786,02</td>
+                            <td id="i4">14%</td>
+                        </tr>
 
+                    </tbody>    
+
+                </table>
+            </div>
+        </section>    
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
