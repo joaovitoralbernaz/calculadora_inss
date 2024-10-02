@@ -1,6 +1,6 @@
 function calcula() {
     let s = parseFloat(document.getElementById('salario').value);
-    let i1 = document.getElementById('i1').value;
+    const i1 = 0;
     const i2 = 0.09;
     const i3 = 0.12;
     const i4 = 0.14;
@@ -8,9 +8,6 @@ function calcula() {
     const p3 = 101.18;
     const p4 = 181.18;
     let v;
-
-    parseFloat(i1.replace(",", '.'))/100;
-    i1.replace("%", '');
 
 
     if (s < 1412.00) {
@@ -21,8 +18,10 @@ function calcula() {
         v = ((s*i3)-p3);
     }else if (s < 7786.02) {
         v = ((s*i4)-p4);
-    }else{
+    }else if( s > 7786.03){
         v = 908.86;
+    }else{
+        document.getElementById('valor').innerText = "Não foi possivel realizar a conta"
     }
 
     document.getElementById('valor').innerText = "O valor do INSS mensalmente será de R$" + (v.toFixed(2));
