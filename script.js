@@ -1,6 +1,6 @@
 function calcula() {
     let s = parseFloat(document.getElementById('salario').value);
-    const i1 = 0;
+    const i1 = 0.075;
     const i2 = 0.09;
     const i3 = 0.12;
     const i4 = 0.14;
