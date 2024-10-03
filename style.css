@@ -1,5 +1,5 @@
 
-body, h1, p, li {
+body, li {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
     color: #333;
 }
 header {
-    background: #ff9900;
+    background-image: linear-gradient(45deg, yellow, green, blue);
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -24,14 +24,25 @@ main {
     margin-bottom: 20px;
 }
 
-div {
-    text-align: justify;
+div{
+    text-align: justify ;
     background: white;
     padding: 15px;
     margin-bottom: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
+p {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+li{
+    padding-left: 30;
+    padding-right: 300px;
+    list-style: none;
+}
+div h2{
+    text-align: center;
+}
 .tabela {
     margin: 20px 0;
 }
@@ -41,46 +52,6 @@ table {
 }
 
 
-#oq{
-    font-family: monospace;
-    border-right: 4px solid ;
-    white-space: nowrap;
-    width: 8ch;
-    overflow: hidden;
-    animation: animaMarcador 0.7s linear infinite, animatexto steps(8) 2.5s;
-
-}
-#op{
-    font-family: monospace;
-    border-right: 4px solid ;
-    white-space: nowrap;
-    width: 13ch;
-    overflow: hidden;
-    animation: animaMarcador 0.7s linear infinite, animatexto steps(13) 2.5s;
-
-}
-#pu{
-    font-family: monospace;
-    border-right: 4px solid ;
-    white-space: nowrap;
-    width: 16ch;
-    overflow: hidden;
-    animation: animaMarcador 0.7s linear infinite, animatexto steps(16) 2.5s;
-
-}
-@keyframes animaMarcador {
-    50%{
-        border-right: transparent;
-    }
-    
-}
-@keyframes animatexto {
-    0%{
-        width: 0;
-    }
-    
-}
-
 th, td {
     padding: 10px;
     text-align: left;
@@ -88,14 +59,14 @@ th, td {
 }
 
 th {
-    background-color: #ff9900;
+    background-color: rgba(0, 0, 255, 0.658);
     color: white;
 }
 a{
     display: flex;
     align-items: center;
     text-decoration-line: none;
-    background-color: #ff9900;
+    background-color: rgba(0, 0, 255, 0.712);
     color: white; 
     border: none;
     padding: 10px;
