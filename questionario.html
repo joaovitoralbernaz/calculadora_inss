@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <body onload="inclui_nome()">
+
+            <script src="script.js"></script>
+        
+            <p id="marcacao_nome"></p>
+        
+            <form>
+                <h3>O que é INSS?</h3>
+                <input type="radio" name="quest_1" value="correta">É o órgão responsável pelo pagamento de benefícios previdenciários como aposentadoria, seguro desemprego, auxílio-doença, pensão por morte e outros.<br>
+                <input type="radio" name="quest_1" value="errada">É o responsável por executar os direitos dos segurados do RGPS.<br>
+                <input type="radio" name="quest_1" value="errada">É um seguro que visa garantir a renda do contribuinte e de sua família.<br>
+                <input type="radio" name="quest_1" value="errada">É uma poupança aberta pela empresa em nome do trabalhador que funciona como uma garantia para protegê-lo em caso de demissão sem justa causa.<br>
+                <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
+        
+                <h3>O que é a Previdência Social?</h3>
+                <input type="radio" name="quest_2" value="errada">É o benefício pago ao trabalhador que sofre um acidente e fica com sequelas que reduzem sua capacidade de trabalho.<br>
+                <input type="radio" name="quest_2" value="errada"> É um tributo federal sobre diferentes tipos de rendimentos.<br>
+                <input type="radio" name="quest_2" value="correta">É um seguro que garante a renda do contribuinte e de sua família.<br>
+                <input type="radio" name="quest_2" value="errada">É um título comercializado entre os bancos para regular suas finanças internas.<br>
+                <p id="resp_correta_2" class="verde"></p><p id="resp_errada_2" class="vermelho"></p>
+        
+                <h3>Qual é o benefício da Previdência Social, das seguntes alternativas?</h3>
+                <input type="radio" name="quest_3" value="errada">Auxílio-moradia<br>
+                <input type="radio" name="quest_3" value="errada">Seguro desemprego<br>
+                <input type="radio" name="quest_3" value="errada">Plano de saúde<br>
+                <input type="radio" name="quest_3" value="correta">Auxílio-reclusão<br>
+                <p id="resp_correta_3" class="verde"></p><p id="resp_errada_3" class="vermelho"></p><br>
+        
+                <h3>Questão 4</h3>
+                <input type="radio" name="quest_4" value="errada">Resposta 1 <br>
+                <input type="radio" name="quest_4" value="correta">Resposta 1 <br>
+                <input type="radio" name="quest_4" value="errada">Resposta 1 <br>
+                <input type="radio" name="quest_4" value="errada">Resposta 1 <br>
+                <p id="resp_correta_4" class="verde"></p><p id="resp_errada_4" class="vermelho"></p>
+        
+                <p id="quantos_acertos"></p>
+                    <button type="button" onclick="funcao_resposta()">Responder</button>
+            </form>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
