@@ -26,7 +26,6 @@ main {
     margin-bottom: 20px;
 }
 .elementopai{
-    justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
@@ -43,7 +42,6 @@ main {
     font-size: 16px;
 }
 .box{
-    justify-content: center;
     width: 48.39%;
     text-align: justify;
     background: white;
@@ -57,12 +55,12 @@ p{
     font-size: 20px;
 }
 .caixa {
-    border-radius: 20px;
     text-align: justify;
     background: white;
     padding: 15px;
     margin-bottom: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 }
 div h2{
     text-align: center;
@@ -72,9 +70,10 @@ ul{
     padding-right: 30%;
 }
 div h3{
-    padding-left: 30%;
-    padding-right: 50%;
+    padding-left: 8%;
+    padding-right: 30%;
 }
+
 .tabela {
     margin: 20px 0;
 
