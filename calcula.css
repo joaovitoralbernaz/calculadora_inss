@@ -48,7 +48,7 @@ input{
 /* Estilo do botão*/
  a{
     text-decoration-line: none;
-    background-color: blue;
+    background-color: #363aa0;
     color: white; 
     border: none;
     padding: 10px;
@@ -58,7 +58,7 @@ input{
 
 button {
     text-decoration-line: none;
-    background-color: blue;
+    background-color: #272a79;
     color: white; 
     border: none;
     padding: 10px;
@@ -68,10 +68,10 @@ button {
 
 /* Efeito de hover no botão */
 button:hover {
-    background-color: rgb(69, 69, 255); /
+    background-color:#1b1d63; 
 }
 a:hover{
-    background-color: rgb(69, 69, 255);
+    background-color: #1b1d63;
 }
 
 /* Estilo para mostrar o resultado */

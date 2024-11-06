@@ -40,12 +40,16 @@ a{
     display: flex;
     flex-direction: column;
     text-decoration-line: none;
-    background-color: ##2d2e47;
+    background-color: #2d2e47;
     color: white; 
     border: none;
     padding: 15px;
     border-radius: 4px; 
     font-size: 16px;
+}
+
+.a:hover{
+    background-color: #363aa0;
 }
 .box{
     width: 48.39%;
@@ -60,9 +64,9 @@ p{
     padding-right:80px;
     font-size: 20px;
 }
-div h1{
+.caixa h1{
     text-align: center;
-    color: #0051ff;
+    color: #363aa0;
 }
 .caixa {
     text-align: justify;
@@ -74,6 +78,7 @@ div h1{
 }
 div h2{
     text-align: center;
+    color: #363aa0;
 }
 ul{
     padding-left: 8%;

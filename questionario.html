@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/inss.png" type="image/x-icon">
     <link rel="stylesheet" href="questionario.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questões-INSS</title>
@@ -11,90 +12,93 @@
         <body onload="inclui_nome()">
 
             <script src="script.js"></script>
-        
-            <h1 id="marcacao_nome"></h1>
-            <section class="elementomae">
-                <div class="caixa">
-                    <form>
-                        <h3>01-O que é INSS?</h3>
-                        <input type="radio" name="quest_1" value="correta">É o órgão responsável pelo pagamento de benefícios previdenciários como aposentadoria, seguro desemprego, auxílio-doença, pensão por morte e outros.<br>
-                        <input type="radio" name="quest_1" value="errada">É o responsável por executar os direitos dos segurados do RGPS.<br>
-                        <input type="radio" name="quest_1" value="errada">É um seguro que visa garantir a renda do contribuinte e de sua família.<br>
-                        <input type="radio" name="quest_1" value="errada">É uma poupança aberta pela empresa em nome do trabalhador que funciona como uma garantia para protegê-lo em caso de demissão sem justa causa.<br>
-                        <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
-                
-                        <h3>02-O que é a Previdência Social?</h3>
-                        <input type="radio" name="quest_2" value="errada">É o benefício pago ao trabalhador que sofre um acidente e fica com sequelas que reduzem sua capacidade de trabalho.<br>
-                        <input type="radio" name="quest_2" value="errada"> É um tributo federal sobre diferentes tipos de rendimentos.<br>
-                        <input type="radio" name="quest_2" value="correta">É um seguro que garante a renda do contribuinte e de sua família.<br>
-                        <input type="radio" name="quest_2" value="errada">É um título comercializado entre os bancos para regular suas finanças internas.<br>
-                        <p id="resp_correta_2" class="verde"></p><p id="resp_errada_2" class="vermelho"></p>
-                
-                        <h3>03-Qual é o benefício da Previdência Social, das seguntes alternativas?</h3>
-                        <input type="radio" name="quest_3" value="errada">Auxílio-moradia<br>
-                        <input type="radio" name="quest_3" value="errada">Seguro desemprego<br>
-                        <input type="radio" name="quest_3" value="errada">Plano de saúde<br>
-                        <input type="radio" name="quest_3" value="correta">Auxílio-reclusão<br>
-                        <p id="resp_correta_3" class="verde"></p><p id="resp_errada_3" class="vermelho"></p><br>
-                
-                        <h3>04-O que é reabilitação profissional?</h3>
-                        <input type="radio" name="quest_4" value="errada">É um benefício devido aos dependentes do segurado recolhido à prisão, durante o período em que estiver preso sob regime fechado ou semi-aberto.<br>
-                        <input type="radio" name="quest_4" value="correta">É a assistência educativa ou reeducativa e de adaptação ou readaptação profissional.<br>
-                        <input type="radio" name="quest_4" value="errada">É o benefício concedido ao segurado impedido de trabalhar por doença ou acidente por mais de 15 dias consecutivos.<br>
-                        <input type="radio" name="quest_4" value="errada">É o benefício concedido ao segurado da Previdência que atingir a idade considerada risco social. <br>
-                        <p id="resp_correta_4" class="verde"></p><p id="resp_errada_4" class="vermelho"></p>
+            <header>
+                <h1 id="marcacao_nome"></h1>
+                <a href="index.html">Voltar</a>
+            </header>
+            <main>    
+                <section class="elementomae">
+                    <div class="caixa">
+                        <form>
+                            <h3>01-O que é INSS?</h3>
+                            <input type="radio" name="quest_1" value="correta">É o órgão responsável pelo pagamento de benefícios previdenciários como aposentadoria, seguro desemprego, auxílio-doença, pensão por morte e outros.<br>
+                            <input type="radio" name="quest_1" value="errada">É o responsável por executar os direitos dos segurados do RGPS.<br>
+                            <input type="radio" name="quest_1" value="errada">É um seguro que visa garantir a renda do contribuinte e de sua família.<br>
+                            <input type="radio" name="quest_1" value="errada">É uma poupança aberta pela empresa em nome do trabalhador que funciona como uma garantia para protegê-lo em caso de demissão sem justa causa.<br>
+                            <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
+                    
+                            <h3>02-O que é a Previdência Social?</h3>
+                            <input type="radio" name="quest_2" value="errada">É o benefício pago ao trabalhador que sofre um acidente e fica com sequelas que reduzem sua capacidade de trabalho.<br>
+                            <input type="radio" name="quest_2" value="errada"> É um tributo federal sobre diferentes tipos de rendimentos.<br>
+                            <input type="radio" name="quest_2" value="correta">É um seguro que garante a renda do contribuinte e de sua família.<br>
+                            <input type="radio" name="quest_2" value="errada">É um título comercializado entre os bancos para regular suas finanças internas.<br>
+                            <p id="resp_correta_2" class="verde"></p><p id="resp_errada_2" class="vermelho"></p>
+                    
+                            <h3>03-Qual é o benefício da Previdência Social, das seguntes alternativas?</h3>
+                            <input type="radio" name="quest_3" value="errada">Auxílio-moradia<br>
+                            <input type="radio" name="quest_3" value="errada">Seguro desemprego<br>
+                            <input type="radio" name="quest_3" value="errada">Plano de saúde<br>
+                            <input type="radio" name="quest_3" value="correta">Auxílio-reclusão<br>
+                            <p id="resp_correta_3" class="verde"></p><p id="resp_errada_3" class="vermelho"></p><br>
+                    
+                            <h3>04-O que é reabilitação profissional?</h3>
+                            <input type="radio" name="quest_4" value="errada">É um benefício devido aos dependentes do segurado recolhido à prisão, durante o período em que estiver preso sob regime fechado ou semi-aberto.<br>
+                            <input type="radio" name="quest_4" value="correta">É a assistência educativa ou reeducativa e de adaptação ou readaptação profissional.<br>
+                            <input type="radio" name="quest_4" value="errada">É o benefício concedido ao segurado impedido de trabalhar por doença ou acidente por mais de 15 dias consecutivos.<br>
+                            <input type="radio" name="quest_4" value="errada">É o benefício concedido ao segurado da Previdência que atingir a idade considerada risco social. <br>
+                            <p id="resp_correta_4" class="verde"></p><p id="resp_errada_4" class="vermelho"></p>
 
-                        <h3>05-Pessoas com deficiências têm regras diferentes para se aposentar?</h3>
-                        <input type="radio" name="quest_5" value="errada">Sim, apenas avise da deficiência.<br>
-                        <input type="radio" name="quest_5" value="errada">Apenas os casos mais graves têm diferenças.<br>
-                        <input type="radio" name="quest_5" value="correta">Sim, mas deve comprovar pelo documento mais antigo.<br>
-                        <input type="radio" name="quest_5" value="errada">Não, elas têm os mesmos direitos que todos.<br>
-                        <p id="resp_correta_5" class="verde"></p><p id="resp_errada_5" class="vermelho"></p>
-                        
-                        <h3>06-Como funciona a aposentadoria por idade e por tempo de contribuição?</h3>
-                        <input type="radio" name="quest_6" value="errada">Aposentadoria por idade exige 15 anos de contribuição e idade mínima, enquanto a por tempo exige apenas 20 anos de idade.<br>
-                        <input type="radio" name="quest_6" value="errada">Ambas dependem apenas da idade do trabalhador.<br>
-                        <input type="radio" name="quest_6" value="errada">A aposentadoria por tempo exige apenas o pedido por escrito ao INSS.<br>
-                        <input type="radio" name="quest_6" value="correta"> A aposentadoria por idade exige idade mínima e tempo de contribuição; a por tempo depende somente dos anos contribuídos.<br>
-                        <p id="resp_correta_6" class="verde"></p><p id="resp_errada_6" class="vermelho"></p><br>
+                            <h3>05-Pessoas com deficiências têm regras diferentes para se aposentar?</h3>
+                            <input type="radio" name="quest_5" value="errada">Sim, apenas avise da deficiência.<br>
+                            <input type="radio" name="quest_5" value="errada">Apenas os casos mais graves têm diferenças.<br>
+                            <input type="radio" name="quest_5" value="correta">Sim, mas deve comprovar pelo documento mais antigo.<br>
+                            <input type="radio" name="quest_5" value="errada">Não, elas têm os mesmos direitos que todos.<br>
+                            <p id="resp_correta_5" class="verde"></p><p id="resp_errada_5" class="vermelho"></p>
+                            
+                            <h3>06-Como funciona a aposentadoria por idade e por tempo de contribuição?</h3>
+                            <input type="radio" name="quest_6" value="errada">Aposentadoria por idade exige 15 anos de contribuição e idade mínima, enquanto a por tempo exige apenas 20 anos de idade.<br>
+                            <input type="radio" name="quest_6" value="errada">Ambas dependem apenas da idade do trabalhador.<br>
+                            <input type="radio" name="quest_6" value="errada">A aposentadoria por tempo exige apenas o pedido por escrito ao INSS.<br>
+                            <input type="radio" name="quest_6" value="correta"> A aposentadoria por idade exige idade mínima e tempo de contribuição; a por tempo depende somente dos anos contribuídos.<br>
+                            <p id="resp_correta_6" class="verde"></p><p id="resp_errada_6" class="vermelho"></p><br>
 
-                        <h3>07-O que é o auxílio-doença e quem pode solicitar?</h3>
-                        <input type="radio" name="quest_7" value="errada">Um benefício para quem está desempregado há mais de um ano.<br>
-                        <input type="radio" name="quest_7" value="errada">Auxílio exclusivo para aposentados do INSS.<br>
-                        <input type="radio" name="quest_7" value="errada"> Benefício para estudantes universitários sem emprego.<br>
-                        <input type="radio" name="quest_7" value="correta">Benefício temporário para trabalhadores incapacitados para o trabalho por doença ou acidente.<br>
-                        <p id="resp_correta_7" class="verde"></p><p id="resp_errada_7" class="vermelho"></p><br>
+                            <h3>07-O que é o auxílio-doença e quem pode solicitar?</h3>
+                            <input type="radio" name="quest_7" value="errada">Um benefício para quem está desempregado há mais de um ano.<br>
+                            <input type="radio" name="quest_7" value="errada">Auxílio exclusivo para aposentados do INSS.<br>
+                            <input type="radio" name="quest_7" value="errada"> Benefício para estudantes universitários sem emprego.<br>
+                            <input type="radio" name="quest_7" value="correta">Benefício temporário para trabalhadores incapacitados para o trabalho por doença ou acidente.<br>
+                            <p id="resp_correta_7" class="verde"></p><p id="resp_errada_7" class="vermelho"></p><br>
 
-                        <h3>08-Como funciona o benefício de pensão por morte?</h3>
-                        <input type="radio" name="quest_8" value="correta"> É pago aos dependentes do segurado falecido, como cônjuge e filhos menores.<br>
-                        <input type="radio" name="quest_8" value="errada">É um benefício exclusivo para pais do segurado falecido.<br>
-                        <input type="radio" name="quest_8" value="errada"> É um benefício concedido apenas para pessoas acima de 65 anos.<br>
-                        <input type="radio" name="quest_8" value="errada"> É um benefício temporário, pago por apenas um ano.<br>
-                        <p id="resp_correta_8" class="verde"></p><p id="resp_errada_8" class="vermelho"></p><br>
+                            <h3>08-Como funciona o benefício de pensão por morte?</h3>
+                            <input type="radio" name="quest_8" value="correta"> É pago aos dependentes do segurado falecido, como cônjuge e filhos menores.<br>
+                            <input type="radio" name="quest_8" value="errada">É um benefício exclusivo para pais do segurado falecido.<br>
+                            <input type="radio" name="quest_8" value="errada"> É um benefício concedido apenas para pessoas acima de 65 anos.<br>
+                            <input type="radio" name="quest_8" value="errada"> É um benefício temporário, pago por apenas um ano.<br>
+                            <p id="resp_correta_8" class="verde"></p><p id="resp_errada_8" class="vermelho"></p><br>
 
-                        <h3>09-Quem tem direito ao salário-maternidade pelo INSS?</h3>
-                        <input type="radio" name="quest_9" value="correta"> Pelo aplicativo ou site Meu INSS.<br>
-                        <input type="radio" name="quest_9" value="errada"> Apenas presencialmente, na sede do INSS.<br>
-                        <input type="radio" name="quest_9" value="errada">  Ligando para o número do Ministério da Justiça.<br>
-                        <input type="radio" name="quest_9" value="errada"> Enviando um e-mail para a Ouvidoria do INSS.<br>
-                        <p id="resp_correta_9" class="verde"></p><p id="resp_errada_9" class="vermelho"></p><br>
+                            <h3>09-Quem tem direito ao salário-maternidade pelo INSS?</h3>
+                            <input type="radio" name="quest_9" value="correta"> Pelo aplicativo ou site Meu INSS.<br>
+                            <input type="radio" name="quest_9" value="errada"> Apenas presencialmente, na sede do INSS.<br>
+                            <input type="radio" name="quest_9" value="errada">  Ligando para o número do Ministério da Justiça.<br>
+                            <input type="radio" name="quest_9" value="errada"> Enviando um e-mail para a Ouvidoria do INSS.<br>
+                            <p id="resp_correta_9" class="verde"></p><p id="resp_errada_9" class="vermelho"></p><br>
 
-                        <h3>10- Qual é o tempo mínimo de contribuição exigido para solicitar a aposentadoria por idade?</h3>
-                        <input type="radio" name="quest_10" value="errada">10 anos de contribuição.<br>
-                        <input type="radio" name="quest_10" value="errada">  20 anos de contribuição.<br>
-                        <input type="radio" name="quest_10" value="correta">  15 anos de contribuição.<br>
-                        <input type="radio" name="quest_10" value="errada"> Não há tempo mínimo de contribuição.<br> 
-                        <p id="resp_correta_10" class="verde"></p><p id="resp_errada_10" class="vermelho"></p><br>
-                        <div class="button">
-                            <p id="quantos_acertos"></p>
-                                <button type="button" onclick="funcao_resposta()">Responder</button>
-                                <button><a href="index.html">Voltar</a></button>
-                        </div>        
-                    </form>
-                </div>
-            </section>        
-    </header>
-    <main></main>
+                            <h3>10- Qual é o tempo mínimo de contribuição exigido para solicitar a aposentadoria por idade?</h3>
+                            <input type="radio" name="quest_10" value="errada">10 anos de contribuição.<br>
+                            <input type="radio" name="quest_10" value="errada">  20 anos de contribuição.<br>
+                            <input type="radio" name="quest_10" value="correta">  15 anos de contribuição.<br>
+                            <input type="radio" name="quest_10" value="errada"> Não há tempo mínimo de contribuição.<br> 
+                            <p id="resp_correta_10" class="verde"></p><p id="resp_errada_10" class="vermelho"></p><br>
+                            <div class="button">
+                                <p id="quantos_acertos"></p>
+                                    <button type="button" onclick="funcao_resposta()">Responder</button>
+            
+                            </div>        
+                        </form>
+                    </div>
+                </section>        
+            </main>
+
     <footer></footer>
 </body>
 </html>
