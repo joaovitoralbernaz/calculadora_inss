@@ -62,15 +62,14 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_1").innerHTML = "Errada, "
-
+            document.getElementById("resp_errada_1").innerHTML = "Errada.É o órgão responsável pelo pagamento de benefícios previdenciários como aposentadoria, seguro desemprego, auxílio-doença, pensão por morte e outros."
         }
         if(resp2.value == "correta"){
             document.getElementById("resp_correta_2").innerHTML = "Correta!"
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_2").innerHTML = "Errada, "
+            document.getElementById("resp_errada_2").innerHTML = "Errada.É um seguro que garante a renda do contribuinte e de sua família.. "
 
         }
         if(resp3.value == "correta"){
@@ -78,7 +77,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_3").innerHTML = "Errada, "
+            document.getElementById("resp_errada_3").innerHTML = "Errada.Auxílio-reclusão "
 
         }
         if(resp4.value == "correta"){
@@ -86,7 +85,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_4").innerHTML = "Errada,"
+            document.getElementById("resp_errada_4").innerHTML = "Errada.É a assistência educativa ou reeducativa e também adaptação ou readaptação profissional."
 
         }
         if(resp5.value == "correta"){
@@ -94,7 +93,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_5").innerHTML = "Errada,"
+            document.getElementById("resp_errada_5").innerHTML = "Errada.Sim, mas deve comprovar pelo documento mais antigo."
 
         }
         if(resp6.value == "correta"){
@@ -102,7 +101,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_6").innerHTML = "Errada,"
+            document.getElementById("resp_errada_6").innerHTML = "Errada,a aposentadoria por idade exige idade mínima e também tempo de contribuição; a por tempo depende somente dos anos contribuídos."
 
         }
         if(resp7.value == "correta"){
@@ -110,7 +109,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_7").innerHTML = "Errada,"
+            document.getElementById("resp_errada_7").innerHTML = "Errada,os Benefícios são temporários para trabalhadores incapacitados para o trabalho por doença ou acidente."
 
         }
         if(resp8.value == "correta"){
@@ -118,15 +117,14 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_8").innerHTML = "Errada,"
-
+            document.getElementById("resp_errada_8").innerHTML = "Errada,é pago para dependentes do segurado falecido, como cônjuge e também filhos menores."
         }
         if(resp9.value == "correta"){
             document.getElementById("resp_correta_9").innerHTML = "Correta!"
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_9").innerHTML = "Errada,"
+            document.getElementById("resp_errada_9").innerHTML = "Errada, é pelo aplicativo ou site Meu INSS."
 
         }
         if(resp10.value == "correta"){
@@ -134,7 +132,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_10").innerHTML = "Errada,"
+            document.getElementById("resp_errada_10").innerHTML = "Errada, pois o tempo minímo é 15 anos."
 
         }
         
