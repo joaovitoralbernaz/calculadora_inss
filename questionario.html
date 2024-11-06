@@ -12,7 +12,7 @@
 
             <script src="script.js"></script>
         
-            <p id="marcacao_nome"></p>
+            <h1 id="marcacao_nome"></h1>
             <section class="elementomae">
                 <div class="caixa">
                     <form>
@@ -85,9 +85,11 @@
                         <input type="radio" name="quest_10" value="correta">  15 anos de contribuição.<br>
                         <input type="radio" name="quest_10" value="errada"> Não há tempo mínimo de contribuição.<br> 
                         <p id="resp_correta_10" class="verde"></p><p id="resp_errada_10" class="vermelho"></p><br>
-
-                        <p id="quantos_acertos"></p>
-                            <button type="button" onclick="funcao_resposta()">Responder</button>
+                        <div class="button">
+                            <p id="quantos_acertos"></p>
+                                <button type="button" onclick="funcao_resposta()">Responder</button>
+                                <button><a href="index.html">Voltar</a></button>
+                        </div>        
                     </form>
                 </div>
             </section>        
