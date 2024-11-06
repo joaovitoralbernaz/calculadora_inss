@@ -65,6 +65,10 @@ p{
 div h2{
     text-align: center;
 }
+div h1{
+    text-align: center;
+    color: #0051ff;
+}
 ul{
     padding-left: 8%;
     padding-right: 30%;
