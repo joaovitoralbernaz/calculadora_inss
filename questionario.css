@@ -9,12 +9,26 @@
     display: flex;
     flex-wrap: wrap;
 }
-h1{
+header{
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    height: 50px;
+    grid-area: header;
+    background-color: #2d2e47;
+}
+header h1{
+    font-family: monospace;
     color: white;
     text-align: center;
     font-size: 25px;
 }
+a:hover{
+    text-decoration: underline;
+}
 a{
+    margin-top: -25px;
+    margin-left: 70px;
     color: white;
     text-decoration: none;
     display: block;
@@ -30,9 +44,7 @@ a{
 .button{
     text-align: justify;
 }
-header{
-    background-color: #2f3285;
-}
+
 button{
 
     width: 150px;
@@ -47,10 +59,18 @@ button{
     transition: 0.2s;
 }
 main{
-    background-color: #1146d8;
+    grid-area: main;
+    background-color: #363aa0;
 }
 body{
-    
+    background-color: #363aa0;
+    gap: 15px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px auto 100px;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
     
 }
 button:hover{
@@ -61,4 +81,12 @@ button:hover{
 }
 .verde{
     color: green;
+}
+footer{
+    padding-top: 50px;
+    text-align: center;
+    height: 60px;
+    color: white;
+    grid-area: footer;
+    background-color: black;
 }

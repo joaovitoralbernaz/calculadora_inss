@@ -105,20 +105,29 @@ th, td {
     text-align: left;
     border: 1px solid #ddd;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 th {
     background-color: #2d2e47;
     color: white;
 }
 
-
-footer {
-    color: white;
+footer p{
     text-align: center;
+}
+footer {
+
+    color: white;
     padding: 10px 0;
     background: #2d2e47;
     border-top: 1px solid #ccc;
     margin-top: 20px;
+}
+footer img{
+    margin-top: 20px;
+    margin-left: 1250px;
+    width: 40px;
 }
 
 @media (max-width: 600px) {
