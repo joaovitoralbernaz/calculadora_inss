@@ -7,11 +7,14 @@ function calcula() {
     const p2 = 21.18;
     const p3 = 101.18;
     const p4 = 181.18;
+    let qq;
     let v;
+
 
 
     if (s < 1412.00) {
         v = s*i1 ;
+        qq = i1;
     }else if (s < 2666.68 ){
         v = ((s*i2)-p2);
     }else if(s < 4000.03){
@@ -25,6 +28,15 @@ function calcula() {
     }
 
     document.getElementById('valor').innerText = "O valor do INSS mensalmente será de R$" + (v.toFixed(2));
+
+
+    let trecho = `
+    <div class="resposta">
+        valor:${qq*100}%
+    </div>
+
+`;
+    document.getElementById('aqui').innerHTML = trecho;
 
 }
 
@@ -135,8 +147,12 @@ function funcao_resposta(){
             document.getElementById("resp_errada_10").innerHTML = "Errada, pois o tempo minímo é 15 anos."
 
         }
-        
-        document.getElementById("quantos_acertos").innerHTML = "Você acertou " + contador + " questões!";
+        if (contador == 1) {
+            document.getElementById("quantos_acertos").innerHTML = "VOCÊ ACERTOU " + contador + " QUESTÃO!";
+        }
+        else{
+            document.getElementById("quantos_acertos").innerHTML = "VOCÊ ACERTOU " + contador + " QUESTÕES!";
+        }
     }
     else{
         alert("não deixe questões em branco!")
