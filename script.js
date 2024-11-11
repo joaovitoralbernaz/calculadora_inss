@@ -6,21 +6,23 @@ function calcula() {
     const i4 = 0.14;
     const p2 = 21.18;
     const p3 = 101.18;
-    const p4 = 181.18;
-    let qq;
+    
     let v;
 
 
 
     if (s < 1412.00) {
         v = s*i1 ;
-        qq = i1;
+        i = i1;
     }else if (s < 2666.68 ){
         v = ((s*i2)-p2);
+        i = i2;
     }else if(s < 4000.03){
         v = ((s*i3)-p3);
+        i = i3;
     }else if (s < 7786.02) {
         v = ((s*i4)-p4);
+        i = i4;
     }else if( s > 7786.03){
         v = 908.86;
     }else{
@@ -29,13 +31,14 @@ function calcula() {
 
     document.getElementById('valor').innerText = "O valor do INSS mensalmente será de R$" + (v.toFixed(2));
 
-
-    let trecho = `
+    const p4 = 181.18;
+    let trecho = 
+    `
     <div class="resposta">
-        valor:${qq*100}%
+    para um salário de até R$ ${s}, a alíquota é de ${i*100}%, No caso, o trabalhador recebe R$${s}, aplicando a alíquota de ${i*100}%, o cálculo seria R$${s} x ${i*100}% = R$${v.toFixed(2)}.
     </div>
+    `
 
-`;
     document.getElementById('aqui').innerHTML = trecho;
 
 }
