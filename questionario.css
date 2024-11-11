@@ -10,7 +10,6 @@
     flex-wrap: wrap;
 }
 header{
-    border-radius: 0 0 20px 20px;
     margin-bottom: 15px;
     padding-top: 15px;
     height: 50px;
@@ -35,7 +34,7 @@ a{
 }
 .caixa{
     text-align: justify;
-    background: white;
+    background: rgb(230, 228, 228);
     padding: 15px;
     margin-bottom: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -59,11 +58,12 @@ button{
     transition: 0.2s;
 }
 main{
+    line-height: 29px;
     grid-area: main;
-    background-color: #363aa0;
+    background-color: #ffffff;
 }
 body{
-    background-color: #363aa0;
+    background-color: #ffffff;
     gap: 15px;
     grid-template-columns: auto auto auto;
     grid-template-rows: 100px auto 100px;
