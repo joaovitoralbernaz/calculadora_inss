@@ -14,7 +14,7 @@ body {
     height: 100vh;
 }
 
-div{
+.caixa{
     background: white;
     border-radius: 8px; 
     padding: 20px; 
@@ -58,7 +58,7 @@ input{
 
 button {
     text-decoration-line: none;
-    background-color: #272a79;
+    background-color: #363aa0;
     color: white; 
     border: none;
     padding: 10px;
@@ -70,12 +70,14 @@ button {
 button:hover {
     background-color:#1b1d63; 
 }
+
 a:hover{
     background-color: #1b1d63;
 }
 
 /* Estilo para mostrar o resultado */
 span {
+    text-align: initial;
     display: block; 
     margin-top: 20px; 
     font-size: 18px;

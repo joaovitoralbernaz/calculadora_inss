@@ -6,7 +6,7 @@ function calcula() {
     const i4 = 0.14;
     const p2 = 21.18;
     const p3 = 101.18;
-    
+    const p4 = 181.18;
     let v;
 
 
@@ -25,19 +25,18 @@ function calcula() {
         i = i4;
     }else if( s > 7786.03){
         v = 908.86;
+        i = i4;
     }else{
         document.getElementById('valor').innerText = "Não foi possivel realizar a conta"
     }
 
     document.getElementById('valor').innerText = "O valor do INSS mensalmente será de R$" + (v.toFixed(2));
-
-    const p4 = 181.18;
     let trecho = 
     `
     <div class="resposta">
-    para um salário de até R$ ${s}, a alíquota é de ${i*100}%, No caso, o trabalhador recebe R$${s}, aplicando a alíquota de ${i*100}%, o cálculo seria R$${s} x ${i*100}% = R$${v.toFixed(2)}.
+    Para um salário de até R$ ${s}, a alíquota é de ${(i*100).toFixed(2)}%, No caso, o trabalhador recebe R$${s}, aplicando a alíquota de ${(i*100).toFixed(2)}%, o cálculo seria R$${s} x ${(i*100).toFixed(2)}% = R$${v.toFixed(2)}.
     </div>
-    `
+    `;
 
     document.getElementById('aqui').innerHTML = trecho;
 
