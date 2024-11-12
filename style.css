@@ -48,6 +48,42 @@ a{
     font-size: 16px;
 }
 
+.ancdecoration{
+    line-height: 27px;
+}
+
+.empdom{
+    line-height: 27px;
+    text-decoration: underline;
+}
+.empdom:hover{
+    color: #31324d;
+}
+
+.traavu{
+    text-decoration: underline;
+    line-height: 27px;
+}
+.traavu:hover{
+    color: #31324d;
+}
+
+.conind{
+    text-decoration: underline;
+    line-height: 27px;
+}
+.conind:hover{
+    color: #31324d;
+}
+
+.trarur{
+    text-decoration: underline;
+    line-height: 27px;
+}
+.trarur:hover{
+    color: #31324d;
+}
+
 .a:hover{
     background-color: #363aa0;
 }
