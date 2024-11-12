@@ -34,8 +34,9 @@ a{
     display: block;
 }
 .caixa{
+    border-radius: 1%;
     text-align: justify;
-    background: rgb(230, 228, 228);
+    background: rgb(255, 255, 255);
     padding: 15px;
     margin-bottom: 0px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -59,10 +60,10 @@ button{
 main{
     line-height: 29px;
     grid-area: main;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
 }
 body{
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     gap: 15px;
     grid-template-columns: auto auto auto;
     grid-template-rows: 100px auto 100px;
