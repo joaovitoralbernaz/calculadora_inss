@@ -53,6 +53,7 @@ a{
 }
 
 .empdom{
+    color:  #3e7996;
     line-height: 27px;
     text-decoration: underline;
 }
@@ -61,6 +62,7 @@ a{
 }
 
 .traavu{
+    color:  #3e7996;
     text-decoration: underline;
     line-height: 27px;
 }
@@ -69,6 +71,7 @@ a{
 }
 
 .conind{
+    color: #3e7996;
     text-decoration: underline;
     line-height: 27px;
 }
@@ -77,10 +80,27 @@ a{
 }
 
 .trarur{
+    color:  #3e7996;
     text-decoration: underline;
     line-height: 27px;
 }
 .trarur:hover{
+    color: #31324d;
+}
+
+.aut{
+    color:  #3e7996;
+    text-decoration: underline;
+}
+.aut:hover{
+    color: #31324d;
+}
+
+.presoc{
+    color:  #3e7996;
+    text-decoration: underline;
+}
+.presoc:hover{
     color: #31324d;
 }
 
