@@ -55,53 +55,41 @@ a{
 .empdom{
     color:  #3e7996;
     line-height: 27px;
-    text-decoration: underline;
 }
 .empdom:hover{
-    color: #31324d;
 }
 
 .traavu{
     color:  #3e7996;
-    text-decoration: underline;
     line-height: 27px;
 }
 .traavu:hover{
-    color: #31324d;
 }
 
 .conind{
     color: #3e7996;
-    text-decoration: underline;
     line-height: 27px;
 }
 .conind:hover{
-    color: #31324d;
 }
 
 .trarur{
     color:  #3e7996;
-    text-decoration: underline;
     line-height: 27px;
 }
 .trarur:hover{
-    color: #31324d;
 }
 
 .aut{
     color:  #3e7996;
-    text-decoration: underline;
 }
 .aut:hover{
-    color: #31324d;
 }
 
 .presoc{
     color:  #3e7996;
-    text-decoration: underline;
 }
 .presoc:hover{
-    color: #31324d;
 }
 
 .a:hover{
@@ -125,6 +113,7 @@ p{
     color: #363aa0;
 }
 .caixa {
+    line-height: 25px;
     text-align: justify;
     background: white;
     padding: 15px;
