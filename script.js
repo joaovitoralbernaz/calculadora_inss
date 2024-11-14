@@ -1,3 +1,4 @@
+/*início da function com a declaração das const e variaveis*/ 
 function calcula() {
     let s = parseFloat(document.getElementById('salario').value);
     const i1 = 0.075;
@@ -10,7 +11,7 @@ function calcula() {
     let v;
 
 
-
+/*inicio do calculo*/
     if (s < 1412.00) {
         v = s*i1 ;
         i = i1;
@@ -41,7 +42,9 @@ function calcula() {
     document.getElementById('aqui').innerHTML = trecho;
 
 }
+/*fim do calculo*/
 
+/*funcao de boa vinda*/
 function inclui_nome() {
     var nome_variavel = prompt("Coloque seu nome:");
     if(nome_variavel){
@@ -52,7 +55,7 @@ function inclui_nome() {
         inclui_nome();
     }
 }
-
+/*funcao da correção das respostas*/
 function funcao_resposta(){
 
     var resp1 = document.querySelector('input[name="quest_1"]:checked');
@@ -161,3 +164,4 @@ function funcao_resposta(){
     }
 
 }
+/*fim da pagina do calculo*/

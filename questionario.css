@@ -1,14 +1,17 @@
+/*início do css do formulario*/
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     margin: 0%;
     padding: 0%;
 }
+/*ajustes no elemento mae*/
 .elementomae{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
+/*ajustes do header*/
 header{
     margin-bottom: 15px;
     padding-top: 15px;
@@ -16,12 +19,14 @@ header{
     grid-area: header;
     background-color: #2d2e47;
 }
+
 header h1{
     font-family: monospace;
     color: white;
     text-align: center;
     font-size: 25px;
 }
+/*ajustes das ancoras*/
 a:hover{
     text-decoration: underline;
 }
@@ -33,6 +38,7 @@ a{
     text-decoration: none;
     display: block;
 }
+/*ajustes dos div's*/
 .caixa{
     border-radius: 1%;
     text-align: justify;
@@ -41,6 +47,7 @@ a{
     margin-bottom: 0px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+/*ajustes do button*/
 .button{
     text-align: justify;
 }
@@ -57,11 +64,13 @@ button{
     font-size: 18px;
     transition: 0.2s;
 }
+/*ajustes do main*/
 main{
     line-height: 29px;
     grid-area: main;
     background-color: #f4f4f4;
 }
+/*ajustes do body*/
 body{
     background-color: #f4f4f4;
     gap: 15px;
@@ -73,6 +82,7 @@ body{
     "footer footer footer";
     
 }
+/*ajustes do button*/
 button:hover{
     background-color: #2d2e47;
 }
@@ -82,6 +92,7 @@ button:hover{
 .verde{
     color: green;
 }
+/*ajustes do footer*/
 footer{
     padding-top: 50px;
     text-align: center;
@@ -91,7 +102,7 @@ footer{
     background-color: black;
     margin-top: 30px;
 }
-
+/*ajustes do input*/
 input{
     margin-left: 10px;
 }

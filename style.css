@@ -1,14 +1,18 @@
-
+/* Define as fontes para body, h1 e li, removendo margens e preenchimentos */
 body, h1, li {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
 }
+
+/* Estilização do body com fonte Arial, cor de fundo clara e texto escuro */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
+
+/* Configuração do header com fundo escuro, texto branco, centralizado, altura de 50px */
 header {
     background-color: #2d2e47;
     color: white;
@@ -17,85 +21,72 @@ header {
     height: 50px;
 }
 
-
+/* Espaçamento interno para a seção main */
 main {
     padding: 20px;
 }
 
+/* Espaçamento inferior para elementos com a classe .elementomae */
 .elementomae {
     margin-bottom: 20px;
 }
-.elementopai{
+
+/* Estilização flexível para .elementopai, centraliza o conteúdo e permite flex-wrap */
+.elementopai {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
-a{
+
+/* Estilização para links: sem sublinhado, negrito, e cor personalizada */
+a {
     text-decoration: none;
     font-weight: bold;
     color: #3e7996;
 }
-.a{
+
+/* Classe para estilização de um botão centralizado com fundo escuro, texto branco */
+.a {
     text-align: center;
     display: flex;
     flex-direction: column;
     text-decoration-line: none;
     background-color: #2d2e47;
-    color: white; 
+    color: white;
     border: none;
     padding: 15px;
-    border-radius: 4px; 
+    border-radius: 4px;
     font-size: 16px;
 }
 
-.ancdecoration{
+/* Define a altura da linha para .ancdecoration */
+.ancdecoration {
     line-height: 27px;
 }
 
-.empdom{
-    color:  #3e7996;
-    line-height: 27px;
-}
-.empdom:hover{
-}
-
-.traavu{
-    color:  #3e7996;
-    line-height: 27px;
-}
-.traavu:hover{
-}
-
-.conind{
+/* Estilização das classes empdom, traavu, conind, trarur com cor e altura da linha */
+.empdom, .traavu, .conind, .trarur {
     color: #3e7996;
     line-height: 27px;
 }
-.conind:hover{
+
+/* Estilização da classe aut com cor específica */
+.aut {
+    color: #3e7996;
 }
 
-.trarur{
-    color:  #3e7996;
-    line-height: 27px;
-}
-.trarur:hover{
+/* Estilização da classe presoc com cor específica */
+.presoc {
+    color: #3e7996;
 }
 
-.aut{
-    color:  #3e7996;
-}
-.aut:hover{
-}
-
-.presoc{
-    color:  #3e7996;
-}
-.presoc:hover{
-}
-
-.a:hover{
+/* Estilo de hover para .a: muda o fundo para azul escuro */
+.a:hover {
     background-color: #363aa0;
 }
-.box{
+
+/* Define um box branco com alinhamento justificado, sombra leve e margem inferior */
+.box {
     width: 48.39%;
     text-align: justify;
     background: white;
@@ -103,15 +94,20 @@ a{
     margin-bottom: 15px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
-p{
+
+/* Define espaçamento interno para os parágrafos e o tamanho da fonte */
+p {
     padding-left: 80px;
-    padding-right:80px;
+    padding-right: 80px;
     font-size: 20px;
 }
-.caixa h1{
+
+/* Estilização da classe caixa com fundo branco, sombra e arredondamento de borda */
+.caixa h1 {
     text-align: center;
     color: #363aa0;
 }
+
 .caixa {
     line-height: 25px;
     text-align: justify;
@@ -121,65 +117,83 @@ p{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
-div h2{
+
+/* Estilização do h2 dentro de div com cor azul e alinhamento centralizado */
+div h2 {
     text-align: center;
     color: #363aa0;
 }
-ul{
-    padding-left: 8%;
-    padding-right: 30%;
-}
-div h3{
+
+/* Ajuste de preenchimento para listas não ordenadas */
+ul {
     padding-left: 8%;
     padding-right: 30%;
 }
 
+/* Ajuste de preenchimento para h3 dentro de div */
+div h3 {
+    padding-left: 8%;
+    padding-right: 30%;
+}
+
+/* Margem para a classe tabela */
 .tabela {
     margin: 20px 0;
-
 }
 
+/* Estilização de tabelas: largura definida e alinhamento à esquerda */
 table {
     width: 55%;
     margin-left: 20%;
-
 }
 
+/* Espaçamento e borda para células da tabela */
 th, td {
     padding: 10px;
     text-align: left;
     border: 1px solid #ddd;
 }
-html{
+
+/* Comportamento suave de rolagem para o HTML */
+html {
     scroll-behavior: smooth;
 }
+
+/* Estilização do cabeçalho da tabela com fundo escuro e texto branco */
 th {
     background-color: #2d2e47;
     color: white;
 }
 
-footer p{
+/* Estilização do parágrafo do rodapé */
+footer p {
     text-align: center;
 }
-footer {
 
+/* Estilização do footer com cor de fundo escura e borda superior */
+footer {
     color: white;
     padding: 10px 0;
     background: #2d2e47;
     border-top: 1px solid #ccc;
     margin-top: 20px;
 }
-footer img{
+
+/* Ajuste para imagem dentro do rodapé */
+footer img {
     margin-top: 20px;
     margin-left: 1250px;
     width: 40px;
 }
 
+/* Estilizações para dispositivos com largura máxima de 600px */
 @media (max-width: 600px) {
+    /* Reduz o preenchimento da caixa em telas menores */
     .caixa {
         padding: 10px;
     }
 
+    /* Ajusta o tamanho da fonte para células de tabela em telas menores */
     th, td {
         font-size: 14px;
     }
