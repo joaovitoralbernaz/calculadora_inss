@@ -64,7 +64,7 @@ a {
     line-height: 27px;
 }
 
-/* Estilização das classes empdom, traavu, conind, trarur com cor e altura da linha */
+/* Estilização das classes empdom, traavu, conind, trarur com cor e altura da linha      3 iniciais da classe + ex: trarur TRAbalhador RURal */
 .empdom, .traavu, .conind, .trarur {
     color: #3e7996;
     line-height: 27px;
@@ -172,18 +172,19 @@ footer p {
 
 /* Estilização do footer com cor de fundo escura e borda superior */
 footer {
+    text-align: center;
     color: white;
-    padding: 10px 0;
+    padding: 2px 0;
     background: #2d2e47;
     border-top: 1px solid #ccc;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 /* Ajuste para imagem dentro do rodapé */
 footer img {
     margin-top: 20px;
     margin-left: 1250px;
-    width: 40px;
+    width: 45px;
 }
 
 /* Estilizações para dispositivos com largura máxima de 600px */
